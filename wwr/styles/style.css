@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Quicksand:wght@500&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@
     color: #DE6449;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -21,12 +24,17 @@
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 #body {
     background-color: #395c30;
+    padding: 0;
 }
 
 #header {
@@ -43,6 +51,10 @@
     color: #FCF7F8;
     background-color: #DE6449;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -57,11 +69,27 @@
 
 .msg {
     background-color: #FCF7F8;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+.h2 {
+    margin: 0;
+}
+
+.msg h2 {
+    font-family: 'Quicksand', 'Kalam', sans-serif;
 }
 
 #footer {
     color: #395c30;
     background-color: #DE6449;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 #footer p {
@@ -94,4 +122,21 @@
 #hero-img {
     width: 100%;
 }
+
+#footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    margin-top:10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #395c30;
+}
+
 

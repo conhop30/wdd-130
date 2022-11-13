@@ -195,13 +195,15 @@ footer .social img {
 }
 
 .rivers-card, .camping-card, .rapids-card { 
+    grid-column: 1fr;
+    grid-row: 1fr;
     margin: 50px auto;
     width: 60%;
 }
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
-        display: block;
+        display: grid;
         height: auto;
     }
     nav, footer {
@@ -225,6 +227,8 @@ footer .social img {
         color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card { 
+        grid-column: 1fr;
+        grid-row: 1fr;
         margin: 50px auto;
         width: 60%;
     }

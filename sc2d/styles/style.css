@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Expletus+Sans:ital@1&family=Zen+Dots&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color:#DEE7E7;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0E34A0;
+}
+nav a {
+    color: #F7CB15;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+}
+nav a:hover {
+    color:#0E34A0;
+    background-color:#DEE7E7;
+    text-decoration: none;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    background-color: purple;
+}
+#hero-img {
+    width: 100%;
+}
+.logo {
+    width: 180px;
+    height: 78px;
+}
+#logo_link {
+    padding-top: none;
+    justify-self: center;
+    align-self: center;
+    float: left;
+}

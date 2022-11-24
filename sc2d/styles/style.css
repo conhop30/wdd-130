@@ -7,10 +7,24 @@
 body {
     background-color: black;
 }
-.container {
-    position: relative;
-    text-align: center;
-    color:#DEE7E7;
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.game-overview-home-img {
+    margin: 0 auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.commanders-home-img {
+    margin: 0 auto;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.card-gallery-home-img {
+    margin: 0 auto;
+    grid-column-start: 6;
+    grid-column-end: 7;
 }
 nav {
     display: flex;
@@ -28,12 +42,13 @@ nav a:hover {
     background-color:#DEE7E7;
     text-decoration: none;
 }
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-    background-color: purple;
-}
 #hero-img {
     width: 100%;
+    z-index: -1;
+}
+#hero-msg h1, #hero-msg h3 {
+    z-index: 0;
+    color:#DEE7E7;
 }
 .logo {
     width: 180px;
@@ -45,15 +60,14 @@ nav a:hover {
     align-self: center;
     float: left;
 }
-
 h1, h2 {
     font-family: Zen Dots;
+    color:#DEE7E7;
 }
 
 h4 {
     font-family: Cambay;
 }
-
 footer {
     color: #DEE7E7;
     background-color: #0E34A0;

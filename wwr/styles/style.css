@@ -47,6 +47,9 @@ nav a {
     text-align: center;
 }
 
+.home-grid {
+    display: grid;
+}
 main section {
     text-align: center;
 }
